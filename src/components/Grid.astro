@@ -1,6 +1,6 @@
 ---
 interface Props {
-  variant?: "offset" | "small";
+  variant?: "offset" | "small" | "medium";
 }
 
 const { variant } = Astro.props;
@@ -9,7 +9,11 @@ const { variant } = Astro.props;
 <ul
   class:list={[
     "grid",
-    { offset: variant === "offset", small: variant === "small" },
+    {
+      offset: variant === "offset",
+      small: variant === "small",
+      medium: variant === "medium",
+    },
   ]}
 >
   <slot />
@@ -64,6 +68,15 @@ const { variant } = Astro.props;
     }
 
     .grid.small > :global(*) {
+      flex-basis: 20rem;
+    }
+
+    .grid.medium {
+      grid-template-columns: 1fr 1fr;
+      display: grid;
+    }
+
+    .grid.medium > :global(*) {
       flex-basis: 20rem;
     }
   }
