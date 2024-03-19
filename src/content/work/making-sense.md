@@ -14,7 +14,7 @@ tags:
 
 #### Agosto 2021 - Presente
 
-En Making Sense, he tenido la oportunidad de trabajar en varios proyectos emocionantes. A continuación, describo dos de ellos:
+En **[Making Sense](https://www.makingsense.com)**, he tenido la oportunidad de trabajar en varios proyectos emocionantes. A continuación, describo dos de ellos:
 
 ##### Proyecto Full-stack:
 
@@ -46,4 +46,4 @@ Desarrollar componentes reutilizables y optimizar el rendimiento del front-end.
 Implementar animaciones y transiciones para mejorar la usabilidad.
 Trabajar en la integración de API y la gestión de estado.
 
-Estoy emocionado por seguir creciendo en **Making Sense** y enfrentar nuevos desafíos!
+Estoy emocionado por seguir creciendo en **[Making Sense](https://www.makingsense.com)** y enfrentar nuevos desafíos!
