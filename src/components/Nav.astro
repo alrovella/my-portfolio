@@ -5,7 +5,7 @@ import type { iconPaths } from "./IconPaths";
 
 const textLinks: { label: string; href: string }[] = [
   { label: "Inicio", href: "/" },
-  { label: "Mi trabajo", href: "/work/" },
+  { label: "Mis trabajos", href: "/work/" },
   { label: "Acerca de mí", href: "/about/" },
 ];
 
@@ -93,7 +93,7 @@ const iconLinks: {
     </div>
   </noscript>
   <div id="menu-content" hidden>
-    <ul class="nav-items">
+    <ul class="nav-items" transition:name="menu">
       {
         textLinks.map(({ label, href }) => (
           <li>
