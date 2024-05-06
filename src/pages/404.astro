@@ -1,8 +1,6 @@
 ---
-import { Image } from "astro:assets";
 import Hero from "../components/Hero.astro";
 import BaseLayout from "../layouts/BaseLayout.astro";
-import NotFoundImage from "../../public/assets/404.jpg";
 ---
 
 <BaseLayout
@@ -11,8 +9,8 @@ import NotFoundImage from "../../public/assets/404.jpg";
 >
   <div class="bg-[#FAF1F6] pt-4 flex flex-col justify-center items-center">
     <Hero title="" tagline="La página que estás buscando no se encuentra" />
-    <Image
-      src={NotFoundImage}
+    <img
+      src="/public/assets/404.jpg"
       alt="Dibujo de una computadora con un mensaje de error 404 en su pantalla"
     />
   </div>
