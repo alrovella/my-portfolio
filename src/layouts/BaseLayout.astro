@@ -17,6 +17,15 @@ const { title, description } = Astro.props;
   class="scrollbar-thumb-rounded-full scrollbar-track-rounded-full scrollbar-thumb-[#5f2e99] scrollbar-track-slate-100 h-32 overflow-y-scroll scrollbar-thin"
 >
   <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PZ36MW0FMV"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PZ36MW0FMV');
+    </script>
     <MainHead title={title} description={description} />
     <ViewTransitions />
   </head>
